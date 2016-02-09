@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+  background: url('svgs/background.svg') #edeff0;
+  background-size: 3.25rem;
+
+}
+#container {
+  max-width: 960px;
+  background: #fff;
+  margin: 0 auto;
+}
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left;
+}
+header {
+  padding-top: 10px;
+}
+  header nav {
+    padding-bottom: 50px;
+    text-align: left;
+  }
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  header h1 {
+    line-height: 1em;
+  }
+nav svg {
+  width: 0.95rem;
+  fill: #39ADD1;
+}
+a {
+  text-decoration: none;
+  color: #39add1;
+  font-weight: 700;
+  }
+  a:hover {
+    color: #111;
+  }
+  a:hover .stlogo {
+    fill: #111;
+  }
+.logo-container {
+  width: 8.75rem;
+  margin: 0 auto;
+}
+.logo-container svg {
+  width: 100%;
+}
+.logo-heading {
+  color: #EAAA7F;
+  font-size: 1.25rem;
+  margin: 0;
+}
+.st1 {
+  display: none;
+  fill: #EAAA7F;
+}
+.st0 {
+  fill:#BA8058;
+}
+.st2 {
+  fill:#F4C6A6;
+}
+main {
+  padding-top: 50px;
+}
+  main h2 {
+  font-size: 28px;
+}
+  main ul {
+    padding: 0;
+  }
+    main li {
+      display: inline-block;
+      color: #ba8058;
+      margin-right: 20px;
+    }
+      main li .corgi {
+        width: 11rem;
+        margin-bottom: 15px;
+      }
+      main li span {
+        margin-left: -40px;
+      }
+      main li:last-child {
+        margin-right: 0;
+      }
+      main li:hover .corgiR0 {
+        fill: #844B24;
+      }
+      main li:hover .corgiF0 {
+        fill: #BA8058;
+      }
+      main li:hover .corgiS0 {
+        fill: #BA8058;
+      }
+      main li:hover .corgiBT0 {
+        fill: #2D3339;
+      }
+
+.corgiR0 {
+  fill:#BA8058;
+}
+.corgiR1 {
+  fill:#FBFEFF;
+}
+.corgiR2 {
+  fill:#2D3339;
+}
+.corgiR3 {
+  fill:#EAAA7F;
+}
+.corgiF0 {
+  fill:#EAAA7F;
+}
+.corgiF1 {
+  fill:#FBFEFF;
+}
+.corgiF2 {
+  fill:#2D3339;
+}
+.corgiF3 {
+  fill:#F4C6A6;
+}
+.corgiS0 {
+  fill:#844B24;
+}
+.corgiS1 {
+  fill:#FBFEFF;
+}
+.corgiS2 {
+  fill:#2D3339;
+}
+.corgiS3 {
+  fill:#BA8058;
+}
+.corgiBT0 {
+  fill:#BA8058;
+}
+.corgiBT1 {
+  fill:#52595F;
+}
+.corgiBT2 {
+  fill:#FBFEFF;
+}
+.corgiBT3 {
+  fill:#2D3339;
+}
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058;
+}
+
+@media (min-width: 420px) {
+
+  .logo-heading {
+    display: none;
+  }
+  .st1 {
+    display: inline;
+  }
+  
+
+}
